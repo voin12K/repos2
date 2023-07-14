@@ -5,25 +5,26 @@
     <title>vhod</title>
 </head>
 <body>
-    <h1 align="center">Добро пожаловать на сайт</h1>
-    <div style="text-align: center;">
-        <input type="text" placeholder="Ваша почта" />
-    </div>
-    <h1>              </h1>
-    <div style="text-align: center;">
-        <input type="text" placeholder="Пароль" />
-    </div>
-    <h1>              </h1>
-    <div style="text-align: center;">
-        <input type="text" placeholder="Пароль еще раз" />
-    </div>
-    <h1>              </h1>
-    <div style="border: 1px solid black; width: 100px; text-align: center;margin: 0 auto;">
-        <a href="dz2\pages\avto.html">Войти</a>
-      </div>
-      <h1>              </h1>
-    <div style="border: 1px solid black; width: 100px; text-align: center;margin: 0 auto;">
-        <a href="reg.html">Нет аккаунта?</a>
-    </div>
+    <h1>Вхід</h1>
+
+    <form action="login.php" method="post">
+      <input type="email" name="email" placeholder="Електронна пошта">
+      <input type="password" name="password" placeholder="Пароль">
+      <button onclick="vv()">ввіти</button>
+
+    <script>
+        function vv() {
+            window.open('avto.html', '_blank');
+        }
+    </script>
+      <button onclick="zare()">Зареєструватися</button>
+
+      <script>
+          function zare() {
+              window.open('reg.html', '_blank');
+          }
+      </script>
+
+    </form>
 </body>
 </html>

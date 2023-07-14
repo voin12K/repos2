@@ -5,26 +5,27 @@
     <title>reg</title>
 </head>
 <body>
-    <h1 align="center">Добро пожаловать на сайт</h1>
-    <h3 align="center">Пройдите, пожалуйста, регистрацию</h3>
-    <div style="text-align: center;">
-        <input type="text" placeholder="Ваша почта" />
-    </div>
-    <h1>              </h1>
-    <div style="text-align: center;">
-        <input type="text" placeholder="Пароль" />
-    </div>
-    <h1>              </h1>
-    <div style="text-align: center;">
-        <input type="text" placeholder="Пароль еще раз" />
-    </div>
-    <h1>              </h1>
-    <div style="border: 1px solid black; width: 100px; text-align: center;margin: 0 auto;">
-        <a href="avto.html">Создать аккаунт</a>
-      </div>
-      <h1>              </h1>
-    <div style="border: 1px solid black; width: 100px; text-align: center;margin: 0 auto;">
-        <a href="vhod.html">Уже есть аккаунт?</a>
-    </div>
+    <h1>Реєстрація</h1>
+
+    <form action="register.php" method="post">
+      <input type="email" name="email" placeholder="Електронна пошта">
+      <input type="password" name="password" placeholder="Пароль">
+      <input type="password" name="confirm_password" placeholder="Підтвердити пароль">
+      <link rel="stylesheet" href="link_button.css">
+      <button onclick="zar()">Зареєструватися</button>
+    <script>
+        function zar() {
+            window.open('avto.html', '_blank');
+        }
+    </script>
+      <button onclick="vj()">вже є аккаунт</button>
+
+      <script>
+          function vj() {
+              window.open('vhod.html', '_blank');
+          }
+      </script>
+      
+    </form>
 </body>
 </html>

@@ -6,55 +6,102 @@
     <title>avto</title>
 </head>
 <body>
-    <form action="search.php" method="post">
-        <div>
-          <select name="body_type">
-            <option value="sedan">Седан</option>
-            <option value="hatchback">Хетчбек</option>
-            <option value="SUV">SUV</option>
-            <option value="MPV">MPV</option>
-            <option value="van">Ван</option>
-          </select>
-        </div>
-        <div>
-          <input type="text" name="make" placeholder="Марка">
-        </div>
-        <div>
-          <input type="text" name="country" placeholder="страна изготовщик">
-        </div>
-        <div>
-          <input type="number" name="price_min" placeholder="Цена от">
-        </div>
-        <div>
-          <input type="number" name="price_max" placeholder="цена до">
-        </div>
-        <div>
-          <input type="checkbox" name="condition[]" value="new"> <label for="condition_new">Новый</label>
-        </div>
-        <div>
-          <input type="checkbox" name="condition[]" value="used"> <label for="condition_used">б/у</label>
-        </div>
-        <div>
-          <input type="checkbox" name="condition[]" value="bitten"> <label for="condition_bitten">Битый</label>
-        </div>
-        <div>
-          <input type="checkbox" name="fuel_type[]" value="petrol"> <label for="fuel_type_petrol">Бензин</label>
-        </div>
-        <div>
-          <input type="checkbox" name="fuel_type[]" value="diesel"> <label for="fuel_type_diesel">Дизель</label>
-        </div>
-        <div>
-          <input type="text" name="color" placeholder="Цвет">
-        </div>
-        <div>
-          <input type="checkbox" name="comfort[]" value="sunroof"> <label for="comfort_sunroof">Люк</label>
-        </div>
-        <div>
-          <input type="checkbox" name="comfort[]" value="leather_seats"> <label for="comfort_leather_seats">коженый салон</label>
-        </div>
-        <div style="border: 1px solid black; width: 100px;">
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Найти</a>
-        </div>
-      </form>
+  <form action="search.php" method="get">
+    <a> тип кузова</a>
+    <select name="body_type">
+      <option value="sedan">Седан</option>
+      <option value="coupe">Купе</option>
+      <option value="hatchback">Хетчбек</option>
+      <option value="SUV">SUV</option>
+      <option value="truck">Вантажний автомобіль</option>
+    </select>
+    <hr width="0px">
+    <a> марка</a>
+    <select name="marka">
+      <option value="bmw">BMW</option>
+      <option value="opel">opel</option>
+      <option value="mers">Mercedes-benz</option>
+      <option value="toyota">toyota</option>
+      <option value="audi">audi</option>
+    </select>
+    <hr width="0px">
+    <a>країна виробник</a>
+    <select name="vitobnik">
+      <option value="usa">сша</option>
+      <option value="uk">Великобританій</option>
+      <option value="china">Китай</option>
+      <option value="poland">Польша</option>
+    </select>
+    <hr width="0px">
+    <input type="number" name="vid" placeholder="Ціна від" min="0">
+    <input type="number" name="do" placeholder="Ціна до" min="10000000">
+    <hr width="0px">
+    <input type="number" name="rik vid" placeholder="рік від" min="2000">
+    <input type="number" name="rik do" placeholder="Рік до" min="2023">
+    <hr width="0px">
+    <a>стан</a>
+    <div>
+      <input type="checkbox" name="condition[]" value="new"> <label for="condition_new">Новый</label>
+    </div>
+    <div>
+      <input type="checkbox" name="condition[]" value="used"> <label for="condition_used">б/у</label>
+    </div>
+    <div>
+      <input type="checkbox" name="condition[]" value="bitten"> <label for="condition_bitten">Битый</label>
+    </div>
+    <div>
+    <hr width="0px">
+    <a>тип палива</a>
+    
+    <select name="fuel_type">
+      <option value="gasoline">Бензин</option>
+      <option value="diesel">Дизель</option>
+      <option value="hybrid">Гібрид</option>
+      <option value="electric">Електричний</option>
+    </select>
+    <hr width="0px">
+    <a> коробка передач</a>
+    <select name="transmission_type">
+      <option value="manual">Механічна</option>
+      <option value="automatic">Автоматична</option>
+      <option value="CVT">Безступінчаста</option>
+    </select>
+    <hr width="0px">
+    <a> колір</a>
+    <select name="color">
+      <option value="black">Чорний</option>
+      <option value="white">Білий</option>
+      <option value="red">Червоний</option>
+      <option value="blue">Синій</option>
+      <option value="green">Зелений</option>
+      <option value="yellow">Жовтий</option>
+      <option value="gray">Сірий</option>
+      <option value="silver">Сріблястий</option>
+      <option value="brown">Коричневий</option>
+      <option value="purple">Фіолетовий</option>
+    </select>
+    <hr width="0px">
+    <a>комфорт</a>
+      <div>
+        <input type="checkbox" name="condition[]" value="new"> <label for="condition_new">круіз контроль</label>
+      </div>
+      <div>
+        <input type="checkbox" name="condition[]" value="used"> <label for="condition_used">люк</label>
+      </div>
+      <div>
+        <input type="checkbox" name="condition[]" value="bitten"> <label for="condition_bitten">шкіряний салон</label>
+      </div>
+      <div>
+      <hr width="0px">
+      <button onclick="rikiroll()">вже є аккаунт</button>
+
+      <script>
+          function rikiroll() {
+              window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley', '_blank');
+          }
+      </script>
+      
+
+  </form>
 </body>
 </html>
