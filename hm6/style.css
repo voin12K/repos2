@@ -1,0 +1,64 @@
+.composition {
+  width: 700px;
+  height: 400px;
+  position: relative;
+  background: url("https://htmlbase.ru/storage/app/media/position-task1/bg.jpg");
+}
+
+  .composition {
+    position: relative;
+    width: 600px;
+    height: 400px;
+  }
+  
+  .comp-item {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .planet-1 /* мульт */ {
+    top: 7%;
+    left: 34%;
+    z-index: 1;
+  }
+  
+  .planet-2 /*синий*/ {
+    top: 25%;
+    right: 63%;
+    z-index: 2;
+    transform: scale(1.3);
+  }
+  
+  .planet-3 /* хлеб */ {
+    bottom: 30%;
+    left: 40%;
+    z-index: 4;
+    transform: scale(2);
+  }
+  
+  .asteroid {
+    top: 17%;
+    left: 70%;
+    transform: scale(0.5);
+  }
+  .spaceship {
+    top: 30%;
+    left: 25%;
+    z-index: 3;
+    transform: scale(0.4);
+  }
+  
+  .ufo {
+    top: 70%;
+    left: 25%;
+    z-index: 5;
+    transform: scale(0.5);
+  }
+  
+  .superman {
+    top: 75%;
+    left: 70%;
+    z-index: 1;
+  }
+  
