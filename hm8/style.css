@@ -7,93 +7,76 @@ body {
     align-items: center;
     height: 100vh;
   }
-
+  
   .rectangle {
     width: 1100px;
-    height: 700px;
     border: 1px solid black;
     background-color: gray;
-    position: relative; /* Изменили на relative */
   }
   
-  .pust1 {
-    width: 1000px;
-    height: 200px;
-    background-color: #E6E6E6;
-    position: absolute;
-    top: 20px;
-    left: 50%; /* Позиционируем по центру от левого края */
-    transform: translateX(-50%); /* Центрируем относительно себя */
-    
-  }
-  
-  .pust2 {
-    width: 1000px;
-    height: 200px;
-    background-color: #E6E6E6;
-    position: absolute;
-    bottom: 20px; /* Позиционируем от нижнего края */
-    right: 50%; /* Позиционируем по центру от правого края */
-    transform: translateX(50%); /* Центрируем относительно себя */
-  }
-
+  .pust1,
+  .pust2,
   .pust3 {
-  width: 1000px;
-  height: 200px;
-  background-color: #E6E6E6;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-  .square {
-    width: 200px;
+    width: 1000px;
     height: 200px;
-    background-color: #FC8F8F;
-    position: absolute;
-    top: 0px;
+    background-color: #E6E6E6;
+    margin: 10px auto;
   }
   
-  .left-square {
-    left: 0px;
-  }
-  
-  .right-square {
-    right: 0px;
-  }
-
-  .right-square1 {
-    right: 0px;
-  }
-
-  .right-square2 {
-    right: 115px;
-  }
-  
-  .right-square3 {
-    right: 230px;
-  }
-
-  .right-square4 {
-    right: 345px;
-  }
-
-
-  .left-square2 {
-    left: 215px;
-  }
-  
-  .right-square22 {
-    right: 215px;
-  }
-
   .minisqere{
     width: 100px;
     height: 100px;
     background-color: #FC8F8F;
-    position: absolute;
+    float:right;
     top: 0;
-
+  
   }
+  
+  .square {
+    width: 200px;
+    height: 200px;
+    background-color: #FC8F8F;
+    float: left;
+  }
+  
+  .left-square {
+    float: left;
+  }
+  
+  .right-square {
+    float: right;
+  }
+  
+  
+  
+  .right-square11 {
+    margin-left: 10px
+  }
+  
+  .right-square22 {
+    
+    margin-left: 10px
+  }
+  
+  .right-square33 {
+    margin-left: 10px
    
+  }
+  
+  .right-square44 {
+    margin-left: 10px
+    
+  }
+  
+  
+  
+  
+  
+  .left-square2 {
+    margin-left: 10px; 
+  }
+  
+    
+    .right-square221 {
+      margin-left: 180px;
+    }
