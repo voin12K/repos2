@@ -1,10 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
+
     background-color: #E6E6E6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
   }
   
@@ -47,8 +43,6 @@ body {
     float: right;
   }
   
-  
-  
   .right-square11 {
     margin-left: 10px
   }
@@ -68,15 +62,11 @@ body {
     
   }
   
-  
-  
-  
-  
   .left-square2 {
     margin-left: 10px; 
   }
   
     
-    .right-square221 {
+  .right-square221 {
       margin-left: 180px;
-    }
+  }
