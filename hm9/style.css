@@ -2,13 +2,11 @@ body {
   margin: 0;
   padding: 0;
 }
-
 .wrapper {
-  max-width: 1920px;
-  margin: 0 auto;
-  padding: 0 16px;
+  width: 100%;
+  max-width: 1980px; 
+  margin: 0 auto; 
 }
-
 
 .block1 {
   background-color: #EEEFF1;
