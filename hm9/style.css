@@ -1,5 +1,4 @@
 body {
-    height: 2464px;
     margin: 0;
     padding: 0;
     position: relative;
@@ -141,201 +140,52 @@ body {
     height: 250px;
 }
 
+.card-container {
+    margin-left: 250px; /* Move the entire container 450 pixels to the left */
+  }
 
-.png1 {
-    top: 1159px;
-    left: 409px;
-    position: absolute;
-}
-
-.png2 {
-    top: 1159px;
-    left: 595px;
-    position: absolute;
-}
-
-
-.png3 {
-    top: 1159px;
-    left: 785px;
-    position: absolute;
-}
-
-.png4 {
-    top: 1159px;
-    left: 975px;
-    position: absolute;
-}
-
-.png5 {
-    top: 1159px;
-    left: 1165px;
-    position: absolute;
-}
-
-.png6 {
-    top: 1159px;
-    left: 1355px;
-    position: absolute;
-}
-
-.text1{
+.card {
+    display: inline-block;
+    padding-left: 50px;
+    width: 140px;
+    height: 100px;
+    margin-top: 50px;
+    margin-right: 45px;
+  }
+  
+  
+  .card img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+  
+  .card h3 {
     color: #FFF;
-    width: 36px;
-    height: 19px;
-    flex-shrink: 0;
-    width: 36px;
-    height: 19px;
-    flex-shrink: 0;
-    position: absolute;
-    top: 1162px;
-    left: 479px;
-}
-
-.text2{
+    font-family: Roboto;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    margin-left: 5px;
+  }
+  
+  .card p {
     color: #FFF;
-    width: 36px;
-    height: 19px;
-    width: 36px;
-    height: 19px;
-    flex-shrink: 0;  flex-shrink: 0;
-    position: absolute;
-    top: 1162px;
-    left: 665px;
-}
-.text3{
-    color: #FFF;
-    width: 36px;
-    height: 19px;
-    flex-shrink: 0;
-    width: 36px;
-    height: 19px;
-    flex-shrink: 0; 
-    position: absolute;
-    top: 1162px; 
-    left: 855px;
-}
-.text4{
-    color: #FFF;
-    width: 36px;
-    height: 19px;
-    flex-shrink: 0;
-    width: 36px;
-    height: 19px;
-    flex-shrink: 0;  
-    position: absolute;
-    top: 1162px;
-    left: 1045px;
-}
-.text5{
-    color: #FFF;
-    width: 36px;
-    height: 19px;
-    flex-shrink: 0;
-    width: 36px;
-    height: 19px;
-    flex-shrink: 0;   
-    position: absolute;
-    top: 1162px;
-    left: 1235px;
-}
-.text6{
-    color: #FFF;
-    width: 36px;
-    height: 19px;
-    flex-shrink: 0;
-    width: 36px;
-    height: 19px;
-    flex-shrink: 0;   
-    position: absolute;
-    top: 1162px;
-    left: 1425px;
-}
-
-.q1 {
     width: 71px;
     height: 15px;
-    flex-shrink: 0;
-    color: #FFF;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 164.063%;
-    top: 1191px;
-    position: absolute;
-    left: 479px; 
-}
+    margin: 0;
+    margin-left: 60px;
+  }
 
-.q2 {
-    width: 71px;
-    height: 15px;
-    flex-shrink: 0;
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 164.063%;top: 1191px;
-    position: absolute;
-    left: 665px;
-}
-.q3 {
-    width: 71px;
-    height: 15px;
-    flex-shrink: 0;
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 164.063%;
-    top: 1191px;
-    position: absolute;
-    left: 855px;
-}
-.q4 {
-    width: 71px;
-    height: 15px;
-    flex-shrink: 0;
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 164.063%;
-    top: 1191px;
-    position: absolute; 
-    left: 1045px;
-}
-.q5 {
-    width: 71px;
-    height: 15px;
-    flex-shrink: 0;
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 164.063%; 
-    top: 1191px;
-    position: absolute;
-    left: 1235px;
-}
-.q6 {
-    width: 71px;
-    height: 15px;
-    flex-shrink: 0;
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 164.063%; 
-    top: 1191px;
-    position: absolute;
-    left: 1425px;
-}
+
 .block4 {
     background-color: #EEEFF1;
     width: 100%;
@@ -389,15 +239,10 @@ body {
 .js {
     width: 130px;
     height: 19px;
-    flex-shrink: 0;
     color: #FFF;
     right: 406px;
-    height: 2363px;
     font-family: Roboto;
     font-size: 21px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
     float: left;
     margin-top: 50px;
     margin-left: 406px;
@@ -412,7 +257,6 @@ body {
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
-    line-height: 164.063%;
     margin-top: 89px;
     margin-left: -130px;
   }
