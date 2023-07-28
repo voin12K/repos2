@@ -141,10 +141,10 @@ body {
 }
 
 .card-container {
-    margin-left: 250px; /* Move the entire container 450 pixels to the left */
+    margin-left: 250px; 
   }
-
-.card {
+  
+  .card {
     display: inline-block;
     padding-left: 50px;
     width: 140px;
