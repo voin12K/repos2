@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(2, 16, 59);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    width: 100px;
+    background-color: #eee;
+    cursor: pointer;
+    background-color: rgb(35, 135, 202);
+}
+
+li:hover {
+    background-color: #8e64f1;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.vkladka:hover .submenu {
+    display: block;
+}
+
+.submenu1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.submenu:hover .submenu1 {
+    display: block;
+}
