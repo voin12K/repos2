@@ -1,49 +1,57 @@
-body {
-    background-color: rgb(2, 16, 59);
-}
-
 ul {
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    list-style: none;
+    float: left;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    text-align: center;
+    background: #2c2929;
+    position: relative;
+    padding-top: 12px;
+}
+ul li ul {
     list-style: none;
     padding: 0;
-}
-
-li {
-    display: inline-block;
-    position: relative;
-    padding: 10px 20px;
-    width: 100px;
-    background-color: #eee;
-    cursor: pointer;
-    background-color: rgb(35, 135, 202);
-}
-
-li:hover {
-    background-color: #8e64f1;
-}
-
-.submenu {
+    margin: 0;
+    width: 150px;
     display: none;
     position: absolute;
-    top: 100%;
-    width: 100%;
     left: 0;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    top: 42px;
 }
-
-.vkladka:hover .submenu {
+ul li ul li {
+    float: none;
+    height: 30px;
+    margin: 0;
+    width: 150px;
+    text-align: center;
+    background: #4b6f91;
+}
+ul li{
+    display: block;
+    width: 150px;
+    height: 30px;
+    color: rgb(207, 190, 190);
+    text-decoration: none;
+}
+ul li:hover ul {
     display: block;
 }
-
-.submenu1 {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 100%;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+ul li:hover {
+    background: #3581c8;
 }
-
-.submenu:hover .submenu1 {
+ul li ul li ul {
+    left: 150px;
+    top: 0;
+}
+ul li ul li ul li {
+    display: none;
+}
+ul li ul li:hover ul li {
     display: block;
 }
