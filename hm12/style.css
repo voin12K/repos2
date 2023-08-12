@@ -1,11 +1,21 @@
+@font-face {
+  font-family: GraphikLCG-Semibold;
+  src: url("./fonts/GraphikLCG-Semibold.ttf");
+}
+
+@font-face {
+  font-family:GraphikLCG-Regular ;
+  src: url("./fonts/GraphikLCG-Semibold.ttf");
+}
+
 body {
   margin: 0;
+  background-color: #ffffff;
+  font-family:GraphikLCG-Regular ;
   }
 .container {
   margin: 0 auto;
   max-width: 1440px; 
-  width: 100%; 
-  height: 100%;
 }
 .header {
   background-color: #ffffff;
@@ -14,20 +24,26 @@ body {
 }
 
 .header_box{
+  margin-left: 100px;
   display: flex;
-  justify-content: space-between;
-
-
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 .navigat {
   display: flex;
-  justify-content: space-between;
+  margin-right: 300px;
+}
 
+.navigat a{
+  padding-left: 42px;
+  font-family: GraphikLCG-Regular;
 }
 
 .buttons_header {
   display: flex;
+  
 }
 
 .Log_in,
@@ -38,9 +54,11 @@ body {
   border: 1px solid gray;
   display: flex;
   align-items: center;
+  font-family: Graphik LC TT;
   justify-content: center;
   cursor: pointer;
   margin-right: 10px;
+  margin-bottom: 15px;
 }
 
 .tif {
@@ -51,27 +69,48 @@ body {
 
 
 .localization{
-height: 899px;
+
 background-color: #FFFFFF;
+
+}
+
+.localization_box{
+  margin-left: 75px;
+  background-color: #FFFFFF;
+  padding-bottom: 182px;
+  display: flex;
+  }
+
+.loc_box{
+  display: flex;
+  height: 632px;
+  flex-direction: row;
+  flex-direction: column;
+  padding-right: 10px;
+}
+
+.loc_but{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 .main_text{
   color: #000;
   font-size: 65px;
+  font-family: Graphik LC TT;
   font-weight: 600;
   line-height: 70px; 
-  width: 552px;
-  margin-left: 75px;
   margin-top: 129px;
 }
 
 .loc_content{
-  width: 471px;
   color: #000;
   font-size: 25px;
   font-weight: 400;
   line-height: 35px; 
-  margin-left: 75px;
+  font-family: Graphik LC TT;
   margin-top: 51px;
 }
 
@@ -80,20 +119,20 @@ background-color: #FFFFFF;
   height: 60px;
   background-color: #FF6336;
   display: flex;
-  margin-left: 75px;
-  margin-top: 50px;
+  margin-right: 20px;
+  font-family: Graphik LC TT;
   align-items: center;
   justify-content: center;
   color: #EEEEEE;
 }
 
 .bat{
+  background-color: #ffffff;
   width: 160px;
+  font-family: Graphik LC TT;
   height: 60px;
   border: 1px solid gray;
   display: flex;
-  margin-left: 245px;
-  margin-top: -60px;
   width: 160px;
   height: 59px;
   align-items: center;
@@ -105,32 +144,28 @@ background-color: #FFFFFF;
   font-size: 15px;
   font-weight: 400;
   line-height: 25px; 
-  margin-left: 75px;
-  margin-top: 25px;
+  font-family: Graphik LC TT;
+
 }
 .malunok{
-  display: flex;
-  height: 151px;
-  margin-left: 615px;
-  margin-top: -580px;
-
   width: 759px;
   height: 529px;
+  padding-top: 120px;
 }
 
 .company{
   display: flex;
-  height: 455px;
+  padding-bottom: 100px;
   background-color: #FF9C7D;
 }
 .company_text{
-  display: flex;
   width: 720px;
   color: #000;
   text-align: center;
   font-size: 50px;
   font-weight: 600;
   line-height: 60px; 
+  font-family: Graphik LC TT;
   margin-top: 100px;
   margin-left: 415px;
 }
@@ -146,21 +181,26 @@ background-color: #FFFFFF;
 
 
 .big_block{
-display: flex;
-height: 3250px;
-background-color: #FFFFFF;
+  display: flex;
+  padding-bottom: 150px;
+  background-color: #FFFFFF;
 }
 
 .control{
   display:flex;
   margin-left: 75px;
   margin-top: 100px;
-  width: 1290px;
   height: 632px;
+  flex-direction: row;
+}
+
+.control_box{
+  display: flex;
+  flex-direction: column; 
+
 }
 
 .control_title{
-  width: 500px;
   color: #000;
   font-size: 50px;
   font-weight: 600;
@@ -169,13 +209,11 @@ background-color: #FFFFFF;
 }
 
 .control_main{
+  padding-top: 30px;
   color: #000;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
-  width: 491px;
-  margin-left: -500px;
-  margin-top: 300px;
 }
 
 .control_under{
@@ -183,30 +221,24 @@ background-color: #FFFFFF;
   font-family: Graphik LC TT;
   font-size: 20px;
   font-weight: 600;
-  line-height: 30px; 
-  width: 96px;
-  margin-left: -490px;
-  margin-top: 440px;
+  margin-top: 40px;
 }
 
 .control img {
-  display: flex;
   width: 632px;
   height: 632px;
-  margin-left: 570px;
+  margin-left: 165px;
 }
 
 .shorten {
   display: flex;
   margin-left: 75px;
   margin-top: 100px;
-  width: 1290px;
   height: 632px;
   align-items: center; 
 }
 
 .shorten_content {
-  flex: 1;
   margin-left: 138px; 
   text-align: left; 
 }
@@ -224,7 +256,6 @@ background-color: #FFFFFF;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
-  width: 450px;
   margin-top: 20px;
 }
 
@@ -234,7 +265,6 @@ background-color: #FFFFFF;
   font-size: 20px;
   font-weight: 600;
   line-height: 30px;
-  width: 96px;
   margin-top: 20px;
 }
 
@@ -248,7 +278,6 @@ background-color: #FFFFFF;
   display:flex;
   margin-left: 75px;
   margin-top: 100px;
-  width: 1290px;
   height: 632px;
 }
 
@@ -262,13 +291,11 @@ background-color: #FFFFFF;
 }
 
 .ensure_main{
+  padding-top: 30px;
   color: #000;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
-  width: 491px;
-  margin-left: -500px;
-  margin-top: 300px;
 }
 
 .ensure_under{
@@ -277,30 +304,25 @@ background-color: #FFFFFF;
   font-size: 20px;
   font-weight: 600;
   line-height: 30px; 
-  width: 96px;
-  margin-left: -490px;
-  margin-top: 440px;
+  margin-top: 20px;
 }
 
 .ensure img {
   display: flex;
   width: 632px;
   height: 632px;
-  margin-left: 570px;
+  margin-left: 165px;
 }
 
 .less {
   display: flex;
   margin-left: 75px;
   margin-top: 100px;
-  width: 1290px;
   height: 632px;
   align-items: center; 
 }
 
 .less_content {
-  flex: 1;
-  margin-left: 138px; 
   text-align: left; 
 }
 
@@ -309,7 +331,6 @@ background-color: #FFFFFF;
   font-size: 50px;
   font-weight: 600;
   line-height: 60px;
-  margin-top: 0; 
 }
 
 .less_main {
@@ -317,7 +338,6 @@ background-color: #FFFFFF;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
-  width: 450px;
   margin-top: 20px;
 }
 
@@ -327,7 +347,6 @@ background-color: #FFFFFF;
   font-size: 20px;
   font-weight: 600;
   line-height: 30px;
-  width: 96px;
   margin-top: 20px;
 }
 
@@ -340,7 +359,7 @@ background-color: #FFFFFF;
 
 
 .icons{
-height: 1033px;
+padding-bottom: 140px;
 background-color: #FFF8E4;
 display: flex;
 justify-content: center;
@@ -356,6 +375,7 @@ justify-content: center;
   font-weight: 600;
   line-height: 60px; 
   margin-top: 120px;
+  padding-bottom: 20px;
 
 }
 .icons_box {
@@ -405,7 +425,7 @@ justify-content: center;
 
 .boost{
   display: flex;
-  height: 1065px;
+  padding-bottom: 170px;
   background-color: #FFFFFF;
   justify-content: space-between; 
 }
@@ -491,7 +511,8 @@ justify-content: center;
 
 
 .quote{
-height: 469px;
+padding-bottom: 100px;
+padding-top: 70px;
 background-color: #C9E8F2;
 }
 
@@ -512,7 +533,7 @@ background-color: #C9E8F2;
   font-style: normal;
   font-weight: 400;
   line-height: 40px; 
-  width: 920.702px;
+
 }
 
 .quete_under{
@@ -523,7 +544,8 @@ background-color: #C9E8F2;
   font-weight: 400;
   line-height: 25px; 
   width: 271.581px;
-  margin-top: -5px;
+  margin-top: 15px;
+  margin-bottom: 12px;
 }
 
 .man_box{
@@ -537,7 +559,7 @@ background-color: #C9E8F2;
 
 .pie{
   display: flex;
-  height: 339px;
+  padding-bottom: 100px;
   background-color: #DABC98;
   
 }
@@ -595,21 +617,21 @@ background-color: #C9E8F2;
 }
 
 .bird {
-  height: 1099px;
+
   background-color: #FFFFFF;
 }
 
 .box_bird {
   margin-top: 169px;
-  width: 1350px;
-  height: 1000px;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
   align-items: center; 
+  padding-bottom: 100px;
 }
 
 .title_bird {
+  padding-bottom: 50px;
   text-align: center;
   color: #000;
   font-family: Graphik LC TT;
@@ -617,12 +639,10 @@ background-color: #C9E8F2;
   font-style: normal;
   font-weight: 400;
   line-height: 30px; 
-  width: 791px;
   line-height: 1;
 }
 
 .main_bird {
-  margin-top: -50px;
   text-align: center;
   color: #000;
   font-family: Graphik LC TT;
@@ -630,7 +650,7 @@ background-color: #C9E8F2;
   font-style: normal;
   font-weight: 400;
   line-height: 30px; 
-  width: 539px;
+
 }
 .img_bird{
   width: 1023px;
@@ -655,7 +675,6 @@ background-color: #C9E8F2;
   display: flex;
   justify-content: center; 
   align-items: center;
-  height: 603px;
   background-color: #FF9C7D;
 }
 
@@ -664,7 +683,6 @@ background-color: #C9E8F2;
   align-items: center; 
   flex-direction: column; 
   display: flex;
-  width:1350px;
   height: 500px;
 }
 
@@ -674,7 +692,7 @@ background-color: #C9E8F2;
   font-size: 65px;
   font-weight: 600;
   line-height: 75px;
-  width: 784px;
+
   text-align: center; 
 }
 
