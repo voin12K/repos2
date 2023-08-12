@@ -1,0 +1,758 @@
+body {
+  margin: 0;
+  }
+.container {
+  margin: 0 auto;
+  max-width: 1440px; 
+  width: 100%; 
+  height: 100%;
+}
+    
+.header {
+  height: 95px;
+  background-color: #ffffff;
+  border-bottom: 1px solid gray;
+  display: flex;
+
+}
+
+.lokalise {
+  display: flex;
+  height: 28px;
+  width: 110px;
+  align-items: center;
+  margin-left: 50px; 
+  margin-top:34px ;
+}
+
+.lokalise img {
+  margin-right: 10px; 
+}
+
+.lokalise h4 {
+  margin: 0;
+  flex: 1; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  font-size: 23px;
+}
+.navigat{
+  height: 40px;
+  width: 542px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 232px;
+  margin-top:-34px ;
+}
+
+.navigat {
+  font-size: 14px;
+
+}
+
+.log_in{
+  width: 120px;
+  height: 45px;
+  border: 1px solid gray;
+  display: flex;
+  margin-left: 1139px;
+  margin-top: -45px;
+  align-items: center;
+  justify-content: center; 
+}
+
+.tif{
+  width: 121px;
+  height: 47px;
+  background-color: #FF6336;
+  display: flex;
+  margin-left: 1269px;
+  margin-top: -47px;
+  align-items: center;
+  justify-content: center;
+  color: #EEEEEE;
+}
+
+.localization{
+height: 899px;
+background-color: #FFFFFF;
+}
+
+.main_text{
+  color: #000;
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 70px; 
+  width: 552px;
+  margin-left: 75px;
+  margin-top: 129px;
+}
+
+.loc_content{
+  width: 471px;
+  color: #000;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 35px; 
+  margin-left: 75px;
+  margin-top: 51px;
+}
+
+.loc_tif{
+  width: 160px;
+  height: 60px;
+  background-color: #FF6336;
+  display: flex;
+  margin-left: 75px;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  color: #EEEEEE;
+}
+
+.bat{
+  width: 160px;
+  height: 60px;
+  border: 1px solid gray;
+  display: flex;
+  margin-left: 245px;
+  margin-top: -60px;
+  width: 160px;
+  height: 59px;
+  align-items: center;
+  justify-content: center; 
+
+}
+.under_button{
+  width: 369px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px; 
+  margin-left: 75px;
+  margin-top: 25px;
+}
+.malunok{
+  display: flex;
+  height: 151px;
+  margin-left: 615px;
+  margin-top: -580px;
+
+  width: 759px;
+  height: 529px;
+}
+
+.company{
+  display: flex;
+  height: 455px;
+  background-color: #FF9C7D;
+}
+.company_text{
+  display: flex;
+  width: 720px;
+  color: #000;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px; 
+  margin-top: 100px;
+  margin-left: 415px;
+}
+.brands{
+  display: flex;
+  width: 1290px;
+  height: 53px;
+  flex-shrink: 0;
+  margin-top: 70px;
+  margin-left: 75px;
+  justify-content: space-between;
+}
+
+
+.big_block{
+display: flex;
+height: 3250px;
+background-color: #FFFFFF;
+}
+
+.control{
+  display:flex;
+  margin-left: 75px;
+  margin-top: 100px;
+  width: 1290px;
+  height: 632px;
+}
+
+.control_title{
+  width: 500px;
+  color: #000;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  margin-top: 151px;
+}
+
+.control_main{
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 491px;
+  margin-left: -500px;
+  margin-top: 300px;
+}
+
+.control_under{
+  color: #000;
+  font-family: Graphik LC TT;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px; 
+  width: 96px;
+  margin-left: -490px;
+  margin-top: 440px;
+}
+
+.control img {
+  display: flex;
+  width: 632px;
+  height: 632px;
+  margin-left: 570px;
+}
+
+.shorten {
+  display: flex;
+  margin-left: 75px;
+  margin-top: 100px;
+  width: 1290px;
+  height: 632px;
+  align-items: center; 
+}
+
+.shorten_content {
+  flex: 1;
+  margin-left: 138px; 
+  text-align: left; 
+}
+
+.shorten_title {
+  color: #000;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  margin-top: 0; 
+}
+
+.shorten_main {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 450px;
+  margin-top: 20px;
+}
+
+.shorten_under {
+  color: #000;
+  font-family: Graphik LC TT;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  width: 96px;
+  margin-top: 20px;
+}
+
+.shorten img {
+  width: 632px;
+  height: 632px;
+}
+
+
+.ensure{
+  display:flex;
+  margin-left: 75px;
+  margin-top: 100px;
+  width: 1290px;
+  height: 632px;
+}
+
+.ensure_title{
+  width: 500px;
+  color: #000;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  margin-top: 151px;
+}
+
+.ensure_main{
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 491px;
+  margin-left: -500px;
+  margin-top: 300px;
+}
+
+.ensure_under{
+  color: #000;
+  font-family: Graphik LC TT;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px; 
+  width: 96px;
+  margin-left: -490px;
+  margin-top: 440px;
+}
+
+.ensure img {
+  display: flex;
+  width: 632px;
+  height: 632px;
+  margin-left: 570px;
+}
+
+.less {
+  display: flex;
+  margin-left: 75px;
+  margin-top: 100px;
+  width: 1290px;
+  height: 632px;
+  align-items: center; 
+}
+
+.less_content {
+  flex: 1;
+  margin-left: 138px; 
+  text-align: left; 
+}
+
+.less_title {
+  color: #000;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  margin-top: 0; 
+}
+
+.less_main {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 450px;
+  margin-top: 20px;
+}
+
+.less_under {
+  color: #000;
+  font-family: Graphik LC TT;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  width: 96px;
+  margin-top: 20px;
+}
+
+.less img {
+  width: 632px;
+  height: 632px;
+}
+
+
+
+
+.icons{
+height: 1033px;
+background-color: #FFF8E4;
+display: flex;
+justify-content: center;
+
+}
+
+.icons_text{
+  color: #000;
+  text-align: center;
+  font-family: Graphik LC TT;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px; 
+  margin-top: 120px;
+
+}
+.icons_box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.web_card, .mobile_card, .games_card, .doc_card, .mem_card, .iot_card {
+  width: calc(33.33% - 15px);
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  display: flex; /* Добавляем flex-контейнер */
+  flex-direction: column; /* Опционально, если внутри карточки содержит текст */
+  align-items: center; /* Выравнивание содержимого по центру */
+}
+
+.web_card .mobile_card .games_card .doc_card .mem_card .iot_card img {
+  width: 160px;
+  height: 120px;
+  flex-shrink: 0;
+}
+
+.icons_title {
+  color: #000;
+  text-align: center;
+  font-family: Graphik LC TT;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.icons_main {
+  color: #000;
+  text-align: center;
+  font-family: Graphik LC TT;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  width: 100%;
+}
+
+
+
+
+.boost{
+  display: flex;
+  height: 1065px;
+  background-color: #FFFFFF;
+  justify-content: space-between; /* Распределение между карточками */
+}
+
+.boost_title{
+
+  color: #000;
+  font-family: Graphik LC TT;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: center;
+  margin-top: 154px;
+}
+
+.boost_cards {
+  display: flex;
+  justify-content: space-between; 
+  margin-top: 25px; 
+}
+
+.boost_card {
+
+  flex: 1;
+  max-width: calc(33.33% - 20px);
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.img_m{
+  width: 145px;
+  height: 201px;
+  flex-shrink: 0;
+
+}
+
+.img_d{
+  width: 179px;
+  height: 166px;
+  flex-shrink: 0;
+}
+
+.img_t{
+  width: 179px;
+  height: 183px;
+  flex-shrink: 0;
+}
+
+.card_title {
+  color: #000;
+  font-family: "Graphik LC TT", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+  margin-top: 15px; 
+}
+
+.card_main {
+  color: #000;
+  font-family: "Graphik LC TT", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 10px; 
+}
+
+.card_under {
+  color: #000;
+  font-family: "Graphik LC TT", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-decoration-line: underline;
+  margin-top: 10px; 
+}
+
+
+.quote{
+height: 469px;
+background-color: #C9E8F2;
+}
+
+.quote_box{
+  background-color: ;
+  display: inline-flex;
+  padding-top: 20px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+}
+
+.quete_text{
+  color: #000;
+  font-family: Graphik LC TT;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 133.333% */
+  width: 920.702px;
+}
+
+.quete_under{
+  color: #000;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  width: 271.581px;
+  margin-top: -5px;
+}
+
+.man_box{
+  width: 320px;
+  height: 320px;
+  flex-shrink: 0;
+  margin-left: 1055px;
+  margin-top: -250px;
+}
+
+
+.pie{
+  display: flex;
+  height: 339px;
+  background-color: #DABC98;
+  
+}
+
+.pie_img{
+  width: 176px;
+  height: 154px;
+  flex-shrink: 0;
+}
+
+.pie_box{
+  margin-top: 69px;
+  width: 809px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #DABC98;
+  border-right: 1px solid rgb(0, 0, 0);
+}
+
+
+.pie_title{
+  color: #000;
+  font-family: Graphik LC TT;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px; 
+  margin-left: 67px;
+  width: 461px;
+}
+
+.star_box{
+  display: flex;
+  width: 481px;
+  height: 168px;
+  flex-shrink: 0;
+  margin-left: 883px;
+  margin-top: -140px;
+}
+
+.star_card {
+  display: flex;
+  flex-direction: column;
+  width: 128px;
+  height: 116px;
+  flex-shrink: 0;
+}
+
+.star{
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+
+.bird {
+  height: 1099px;
+  background-color: #FFFFFF;
+}
+
+.box_bird {
+  margin-top: 169px;
+  width: 1350px;
+  height: 1000px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.title_bird {
+  text-align: center;
+  color: #000;
+  font-family: Graphik LC TT;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; 
+  width: 791px;
+  line-height: 1;
+}
+
+.main_bird {
+  margin-top: -50px;
+  text-align: center;
+  color: #000;
+  font-family: Graphik LC TT;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; 
+  width: 539px;
+}
+.img_bird{
+  width: 1023px;
+  height: 445px;
+  flex-shrink: 0;
+
+
+}
+.bird_button {
+  margin-top: 32px;
+  width: 193px;
+  height: 60px;
+  background-color: #FF6336;
+  color: #FFFFFF;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.red_block {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 603px;
+  background-color: #FF9C7D;
+}
+
+.red_box{
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: column; /* Set flex direction to column */
+  display: flex;
+  width:1350px;
+  height: 500px;
+}
+
+.red_title {
+  color: #000;
+  font-family: "Graphik LC TT", sans-serif;
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 75px;
+  width: 784px;
+  text-align: center; /* Center-align the text */
+}
+
+.red_main {
+  color: #000;
+  font-family: "Graphik LC TT", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 26px;
+  text-align: center; /* Center-align the text */
+}
+
+.red_button {
+  width: 160px;
+  height: 60px;
+  background-color: #000000;
+  color: #FFFFFF;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 26px; /* Add some space between main text and button */
+}
+
+
+
+.footer{
+height: 900px;
+background-color: #EEEEEE;
+}
+
+.footer_box{
+  width: 1290px;
+  height: 682px;
+  flex-shrink: 0;
+  display: flex;
+  border-bottom: 1px solid gray;
+  margin-left: 55px;
+}
+
+.velo_box{
+  justify-content: center; /* Center horizontally */
+  align-items: left; /* Center vertically */
+  flex-direction: column; /* Set flex direction to column */
+  display: flex;
+  width: 300x;
+  height: 587px;
+  flex-shrink: 0;
+}
+
+.velo{
+  width: 300px;
+  height: 300px;
+  flex-shrink: 0;
+}
