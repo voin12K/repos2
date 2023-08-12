@@ -69,13 +69,13 @@ body {
 
 
 .localization{
-
-background-color: #FFFFFF;
+  margin-left: 100px;
+  background-color: #FFFFFF;
 
 }
 
 .localization_box{
-  margin-left: 75px;
+  margin-left: 105px;
   background-color: #FFFFFF;
   padding-bottom: 182px;
   display: flex;
