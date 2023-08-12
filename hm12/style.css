@@ -394,9 +394,9 @@ justify-content: center;
   margin-bottom: 20px;
   box-sizing: border-box;
   padding: 0 10px;
-  display: flex; /* Добавляем flex-контейнер */
-  flex-direction: column; /* Опционально, если внутри карточки содержит текст */
-  align-items: center; /* Выравнивание содержимого по центру */
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
 }
 
 .web_card .mobile_card .games_card .doc_card .mem_card .iot_card img {
@@ -432,7 +432,7 @@ justify-content: center;
   display: flex;
   height: 1065px;
   background-color: #FFFFFF;
-  justify-content: space-between; /* Распределение между карточками */
+  justify-content: space-between; 
 }
 
 .boost_title{
@@ -536,7 +536,7 @@ background-color: #C9E8F2;
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
-  line-height: 40px; /* 133.333% */
+  line-height: 40px; 
   width: 920.702px;
 }
 
@@ -546,7 +546,7 @@ background-color: #C9E8F2;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 25px; /* 166.667% */
+  line-height: 25px; 
   width: 271.581px;
   margin-top: -5px;
 }
@@ -678,16 +678,16 @@ background-color: #C9E8F2;
 
 .red_block {
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  justify-content: center; 
+  align-items: center;
   height: 603px;
   background-color: #FF9C7D;
 }
 
 .red_box{
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  flex-direction: column; /* Set flex direction to column */
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
   display: flex;
   width:1350px;
   height: 500px;
@@ -700,7 +700,7 @@ background-color: #C9E8F2;
   font-weight: 600;
   line-height: 75px;
   width: 784px;
-  text-align: center; /* Center-align the text */
+  text-align: center; 
 }
 
 .red_main {
@@ -710,7 +710,7 @@ background-color: #C9E8F2;
   font-weight: 400;
   line-height: 30px;
   margin-top: 26px;
-  text-align: center; /* Center-align the text */
+  text-align: center; 
 }
 
 .red_button {
@@ -722,7 +722,7 @@ background-color: #C9E8F2;
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
-  margin-top: 26px; /* Add some space between main text and button */
+  margin-top: 26px; 
 }
 
 
@@ -742,9 +742,9 @@ background-color: #EEEEEE;
 }
 
 .velo_box{
-  justify-content: center; /* Center horizontally */
-  align-items: left; /* Center vertically */
-  flex-direction: column; /* Set flex direction to column */
+  justify-content: center; 
+  align-items: left; 
+  flex-direction: column; 
   display: flex;
   width: 300x;
   height: 587px;
