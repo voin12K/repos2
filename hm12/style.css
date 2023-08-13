@@ -190,7 +190,6 @@ body {
   display:flex;
   margin-left: 75px;
   margin-top: 100px;
-  height: 632px;
   flex-direction: row;
 }
 
@@ -234,7 +233,6 @@ body {
   display: flex;
   margin-left: 75px;
   margin-top: 100px;
-  height: 632px;
   align-items: center; 
 }
 
@@ -278,7 +276,6 @@ body {
   display:flex;
   margin-left: 75px;
   margin-top: 100px;
-  height: 632px;
 }
 
 .ensure_title{
@@ -318,7 +315,6 @@ body {
   display: flex;
   margin-left: 75px;
   margin-top: 100px;
-  height: 632px;
   align-items: center; 
 }
 
@@ -510,11 +506,11 @@ justify-content: center;
 }
 
 
-.quote{
-padding-bottom: 100px;
-padding-top: 70px;
-background-color: #C9E8F2;
-}
+  .quote{
+  padding-bottom: 100px;
+  padding-top: 70px;
+  background-color: #C9E8F2;
+  }
 
 .quote_box{
   background-color: ;
@@ -543,14 +539,12 @@ background-color: #C9E8F2;
   font-style: normal;
   font-weight: 400;
   line-height: 25px; 
-  width: 271.581px;
   margin-top: 15px;
   margin-bottom: 12px;
 }
 
 .man_box{
-  width: 320px;
-  height: 320px;
+
   flex-shrink: 0;
   margin-left: 1055px;
   margin-top: -250px;
@@ -570,17 +564,21 @@ background-color: #C9E8F2;
   flex-shrink: 0;
 }
 
-.pie_box{
-  margin-top: 69px;
-  width: 809px;
+.pie_main_box{
+display: flex;
+flex-direction: row;
+}
 
+.pie_box{
+  margin-top: 70px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  margin-right: 50px;
   flex-direction: row;
   background-color: #DABC98;
   border-right: 1px solid rgb(0, 0, 0);
 }
+
 
 
 .pie_title{
@@ -590,25 +588,38 @@ background-color: #C9E8F2;
   font-style: normal;
   font-weight: 600;
   line-height: 50px; 
-  margin-left: 67px;
-  width: 461px;
+  margin-right: 70px;
+
 }
+
+.pie_img{
+
+  margin-right: 30px;
+}
+
 
 .star_box{
   display: flex;
-  width: 481px;
-  height: 168px;
+  flex-direction: row;
   flex-shrink: 0;
-  margin-left: 883px;
-  margin-top: -140px;
+  margin-left: 80px;
+  margin-top: 100px;
 }
 
-.star_card {
+.star_card_g
+{
   display: flex;
   flex-direction: column;
-  width: 128px;
-  height: 116px;
   flex-shrink: 0;
+  
+}
+
+.star_card_c
+{
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin-left: 50px;
 }
 
 .star{
@@ -683,7 +694,8 @@ background-color: #C9E8F2;
   align-items: center; 
   flex-direction: column; 
   display: flex;
-  height: 500px;
+  padding-top: 100px;
+  padding-bottom: 150px;
 }
 
 .red_title {
@@ -726,8 +738,6 @@ flex-direction: column;
 }
 
 .footer_box{
-  width: 1290px;
-  height: 682px;
   flex-shrink: 0;
   display: flex;
   border-bottom: 1px solid gray;
@@ -739,7 +749,6 @@ flex-direction: column;
   align-items: left; 
   flex-direction: column; 
   display: flex;
-  width: 300x;
   flex-shrink: 0;
 }
 
@@ -798,18 +807,20 @@ flex-direction: column;
 
   margin-bottom: 391px;
   justify-content: space-between;
-  width: 850px;
-  margin-top: 97px;
+  margin-top: 120px;
   margin-left: 140px;
 }
 .p_colum{
   flex-direction: column; 
+  margin-right: 75px;
 }
 .s_colum{
   flex-direction: column; 
+  margin-right: 75px;
 }
 .c_colum{
   flex-direction: column; 
+  margin-right: 75px;
 }
 .l_colum{
   flex-direction: column; 
