@@ -25,30 +25,26 @@ body {
 
 .header_box {
   display: flex;
-  padding-top: 20px;
+  gap: 250px; 
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
-
-
-
-
 .navigat {
   display: flex;
-  margin-right: 300px;
+
   align-items: center; 
-  padding-bottom: 20px;
+  gap: 50px; 
+
 }
 
 .navigat a{
-  padding-left: 42px;
+
   font-family: GraphikLCG-Regular;
 }
 
-
-
-
 .buttons_header {
   display: flex;
-  
+  gap: 10px; 
 }
 
 .Log_in,
@@ -60,8 +56,6 @@ body {
   align-items: center;
   font-family: Graphik LC TT;
   cursor: pointer;
-  margin-right: 10px;
-  margin-bottom: 15px;
 }
 
 .tif {
