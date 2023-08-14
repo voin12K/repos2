@@ -52,10 +52,8 @@ body {
   height: 45px;
   background-color: #FFFFFF;
   border: 1px solid gray;
-  display: flex;
   align-items: center;
   font-family: Graphik LC TT;
-  justify-content: center;
   cursor: pointer;
   margin-right: 10px;
   margin-bottom: 15px;
@@ -83,8 +81,6 @@ body {
 
 .loc_box{
   display: flex;
-  height: 632px;
-  flex-direction: row;
   flex-direction: column;
   padding-right: 10px;
 }
@@ -97,7 +93,6 @@ body {
 }
 
 .main_text{
-  color: #000;
   font-size: 65px;
   font-family: Graphik LC TT;
   font-weight: 600;
@@ -106,7 +101,6 @@ body {
 }
 
 .loc_content{
-  color: #000;
   font-size: 25px;
   font-weight: 400;
   line-height: 35px; 
@@ -118,11 +112,9 @@ body {
   width: 160px;
   height: 60px;
   background-color: #FF6336;
-  display: flex;
   margin-right: 20px;
   font-family: Graphik LC TT;
   align-items: center;
-  justify-content: center;
   color: #EEEEEE;
 }
 
@@ -132,24 +124,18 @@ body {
   font-family: Graphik LC TT;
   height: 60px;
   border: 1px solid gray;
-  display: flex;
   width: 160px;
   height: 59px;
   align-items: center;
-  justify-content: center; 
-
 }
 .under_button{
-  width: 369px;
+
   font-size: 15px;
-  font-weight: 400;
   line-height: 25px; 
   font-family: Graphik LC TT;
 
 }
 .malunok{
-  width: 759px;
-  height: 529px;
   padding-top: 120px;
 }
 
@@ -158,8 +144,14 @@ body {
   padding-bottom: 100px;
   background-color: #FF9C7D;
 }
+
+.company_box{
+  display: flex;
+  flex-direction: column;
+
+}
+
 .company_text{
-  width: 720px;
   color: #000;
   text-align: center;
   font-size: 50px;
@@ -167,16 +159,15 @@ body {
   line-height: 60px; 
   font-family: Graphik LC TT;
   margin-top: 100px;
-  margin-left: 415px;
 }
+
 .brands{
   display: flex;
-  width: 1290px;
-  height: 53px;
-  flex-shrink: 0;
   margin-top: 70px;
-  margin-left: 75px;
-  justify-content: space-between;
+}
+
+.brands svg{
+  margin-right: 100px;
 }
 
 
@@ -186,9 +177,14 @@ body {
   background-color: #FFFFFF;
 }
 
+.big_box{
+  display: flex;
+  flex-direction: column;
+
+}
+
 .control{
   display:flex;
-  margin-left: 75px;
   margin-top: 100px;
   flex-direction: row;
 }
@@ -231,7 +227,6 @@ body {
 
 .shorten {
   display: flex;
-  margin-left: 75px;
   margin-top: 100px;
   align-items: center; 
 }
@@ -274,7 +269,6 @@ body {
 
 .ensure{
   display:flex;
-  margin-left: 75px;
   margin-top: 100px;
 }
 
@@ -313,7 +307,7 @@ body {
 
 .less {
   display: flex;
-  margin-left: 75px;
+
   margin-top: 100px;
   align-items: center; 
 }
@@ -358,7 +352,6 @@ body {
 padding-bottom: 140px;
 background-color: #FFF8E4;
 display: flex;
-justify-content: center;
 
 }
 
@@ -367,7 +360,6 @@ justify-content: center;
   text-align: center;
   font-family: Graphik LC TT;
   font-size: 50px;
-  font-style: normal;
   font-weight: 600;
   line-height: 60px; 
   margin-top: 120px;
@@ -383,7 +375,6 @@ justify-content: center;
 .web_card, .mobile_card, .games_card, .doc_card, .mem_card, .iot_card {
   width: calc(33.33% - 15px);
   margin-bottom: 20px;
-  box-sizing: border-box;
   padding: 0 10px;
   display: flex; 
   flex-direction: column; 
@@ -431,7 +422,6 @@ justify-content: center;
   color: #000;
   font-family: Graphik LC TT;
   font-size: 50px;
-  font-style: normal;
   font-weight: 600;
   line-height: 60px;
   text-align: center;
@@ -440,7 +430,6 @@ justify-content: center;
 
 .boost_cards {
   display: flex;
-  justify-content: space-between; 
   margin-top: 25px; 
 }
 
@@ -451,8 +440,6 @@ justify-content: center;
   margin: 0 10px;
   display: flex;
   flex-direction: column;
-  align-items: left;
-  text-align: left;
   padding: 20px;
   box-sizing: border-box;
 }
@@ -490,7 +477,6 @@ justify-content: center;
   color: #000;
   font-family: "Graphik LC TT", sans-serif;
   font-size: 20px;
-  font-weight: 400;
   line-height: 30px;
   margin-top: 10px; 
 }
@@ -512,9 +498,12 @@ justify-content: center;
   background-color: #C9E8F2;
   }
 
+.quote_cont{
+  display: flex;
+  justify-content: space-between;
+}
+
 .quote_box{
-  background-color: ;
-  display: inline-flex;
   padding-top: 20px;
   flex-direction: column;
   justify-content: flex-end;
@@ -543,11 +532,8 @@ justify-content: center;
   margin-bottom: 12px;
 }
 
-.man_box{
-
-  flex-shrink: 0;
-  margin-left: 1055px;
-  margin-top: -250px;
+.man{
+  padding-right: 100px;
 }
 
 
@@ -575,7 +561,6 @@ flex-direction: row;
   align-items: center;
   margin-right: 50px;
   flex-direction: row;
-  background-color: #DABC98;
   border-right: 1px solid rgb(0, 0, 0);
 }
 
@@ -585,7 +570,6 @@ flex-direction: row;
   color: #000;
   font-family: Graphik LC TT;
   font-size: 35px;
-  font-style: normal;
   font-weight: 600;
   line-height: 50px; 
   margin-right: 300px;
@@ -600,8 +584,6 @@ flex-direction: row;
 
 .star_box{
   display: flex;
-  flex-direction: row;
-  flex-shrink: 0;
   margin-left: 80px;
   margin-right: 70px;
   margin-top: 100px;
@@ -611,15 +593,12 @@ flex-direction: row;
 {
   display: flex;
   flex-direction: column;
-  flex-shrink: 0;
-  
 }
 
 .star_card_c
 {
   display: flex;
   flex-direction: column;
-  flex-shrink: 0;
   margin-left: 50px;
 }
 
@@ -629,14 +608,12 @@ flex-direction: row;
 }
 
 .bird {
-
   background-color: #FFFFFF;
 }
 
 .box_bird {
 
   margin-top: 169px;
-  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   align-items: center; 
@@ -646,10 +623,8 @@ flex-direction: row;
 .title_bird {
   padding-bottom: 50px;
   text-align: center;
-  color: #000;
   font-family: Graphik LC TT;
   font-size: 65px;
-  font-style: normal;
   font-weight: 400;
   line-height: 30px; 
   line-height: 1;
@@ -686,7 +661,6 @@ flex-direction: row;
 
 .red_block {
   display: flex;
-  justify-content: center; 
   align-items: center;
   background-color: #FF9C7D;
 }
@@ -740,15 +714,12 @@ flex-direction: column;
 }
 
 .footer_box{
-  flex-shrink: 0;
   display: flex;
   border-bottom: 1px solid gray;
   margin-left: 55px;
 }
 
 .velo_box{
-  justify-content: center; 
-  align-items: left; 
   flex-direction: column; 
   display: flex;
   flex-shrink: 0;
@@ -795,10 +766,8 @@ flex-direction: column;
 
 .remo{
   margin-top: 15px;
-  color: #000;
   font-family: Graphik LC TT;
   font-size: 20px;
-  font-style: normal;
   font-weight: 600;
   line-height: 30px; /* 150% */
   padding-bottom: 95px;
@@ -806,7 +775,6 @@ flex-direction: column;
 
 .colum_4{
   display: flex;
-
   margin-bottom: 391px;
   justify-content: space-between;
   margin-top: 120px;
@@ -858,6 +826,8 @@ flex-direction: column;
   line-height: 25px; /* 125% */
 
 }
+
+
 
 .s_colum  p{
   color: #000;
