@@ -381,8 +381,7 @@ display: flex;
 }
 
 .web_card .mobile_card .games_card .doc_card .mem_card .iot_card img {
-  width: 160px;
-  height: 120px;
+
   flex-shrink: 0;
 }
 
