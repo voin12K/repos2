@@ -1,0 +1,28 @@
+@import 'mixin';
+@import 'variables';
+
+.black-square {
+  @include bsquare;
+  background-color: $black-coll;
+  font-size: $mini_font;
+  margin-left: $margin400;
+  border-radius: $border-r;
+
+  
+  &::before {
+    content: "новый текст";
+
+  }
+}
+
+
+.red-square {
+  @include rsquare;
+  background-color: $red-coll;
+  font-size: $big_font;
+  margin-left: $margin200;
+  border-radius: $border-r10;
+  color: $text-color;
+  
+ 
+}
