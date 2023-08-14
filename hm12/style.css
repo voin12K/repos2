@@ -23,23 +23,28 @@ body {
   display: flex;
 }
 
-.header_box{
-  margin-left: 100px;
+.header_box {
   display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-  margin-top: 20px;
+  padding-top: 20px;
 }
+
+
+
 
 .navigat {
   display: flex;
   margin-right: 300px;
+  align-items: center; 
+  padding-bottom: 20px;
 }
 
 .navigat a{
   padding-left: 42px;
   font-family: GraphikLCG-Regular;
 }
+
+
+
 
 .buttons_header {
   display: flex;
@@ -164,11 +169,14 @@ body {
 .brands{
   display: flex;
   margin-top: 70px;
+  align-items: center; 
 }
 
 .brands svg{
+
   margin-right: 100px;
 }
+
 
 
 .big_block{
@@ -220,8 +228,6 @@ body {
 }
 
 .control img {
-  width: 632px;
-  height: 632px;
   margin-left: 165px;
 }
 
@@ -261,11 +267,6 @@ body {
   margin-top: 20px;
 }
 
-.shorten img {
-  width: 632px;
-  height: 632px;
-}
-
 
 .ensure{
   display:flex;
@@ -300,8 +301,6 @@ body {
 
 .ensure img {
   display: flex;
-  width: 632px;
-  height: 632px;
   margin-left: 165px;
 }
 
@@ -879,17 +878,17 @@ flex-direction: column;
   margin-top: 15px;
 }
 
-.konec{
+.end{
   display: flex;
   margin-top: 20px;
   margin-left: 55px;
 
 }
-.konec svg{
+.end svg{
   margin-right: 15px;
 }
 
-.konec p{
+.end p{
   color: #000;
   font-family: Graphik LC TT;
   font-size: 12px;
