@@ -18,7 +18,7 @@ body {
   max-width: 1440px; 
 }
 .header {
-  background-color: #ffffff;
+  background-color: #black;
   border-bottom: 1px solid gray;
   display: flex;
 }
@@ -36,6 +36,7 @@ body {
   gap: 50px; 
 
 }
+body p * { color: red; }
 
 .navigat a{
 
