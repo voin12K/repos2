@@ -2,15 +2,6 @@ body {
   margin: 0;
 }
 
-.wrapper {
-
-}
-
-@media screen and (max-width: 992px){
-min-width: 1200px
-
-}
-
 
 .container {
   margin: 0 auto;
@@ -26,7 +17,6 @@ min-width: 1200px
 }
 
 .tk1 {
-  height: 27px;
   position: relative;
   top: 79px;
   margin-left:  40px;
