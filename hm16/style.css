@@ -11,16 +11,18 @@ body {
   max-width: 1200px; 
   width: 100%; 
   height: 100%;
+  padding: 0 15px;
   }
   
 .header{
+  padding-top: 30px;
   background: #EEEFF1;
   display: flex;
   flex-direction: column;
 }
 
 .navigation{
-  margin-top: 72px;
+ 
   display: flex;
   color: #000;
   font-size: 16px;
@@ -28,7 +30,7 @@ body {
   line-height: 164.063%; 
   text-transform: uppercase;
   gap:42px;
-  margin-left: 20px;
+  flex-wrap: wrap;
 }
 
 .Homepage {
@@ -45,7 +47,7 @@ body {
 .design_box{
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
+
 }
 
 .design{
@@ -112,12 +114,15 @@ body {
 .card_box{
   display: flex;
   gap: 45px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .card{
   display: flex;
-  margin-top: 100px;
-  margin-bottom: 100px;
+
 }
 
 .card_content{
@@ -176,7 +181,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin-left: 50px;
 }
 
 .footer_box h3{
@@ -190,10 +194,117 @@ body {
   margin-bottom: 50px;
 }
 
-@media screen and (max-width: 768px) {
-  .navigation {
-      /* Adjust styles for smaller screens */
+@media screen and (min-width: 1200px) {
+  .player{
+    width: 1100px;
+    height: 700px;
   }
+  
+}
 
-  /* Add more responsive styles as needed */
+
+@media screen and (max-width: 982px) {
+  .card_box{
+    display: flex;
+    gap: 45px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card{
+    display: flex;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 1200px; 
+    width: 100%; 
+    height: 100%;
+    padding: 0 50px;
+    }
+    .player{
+      width: 500px;
+      height: 300px;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .card_box{
+    display: flex;
+    gap: 45px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card{
+    display: flex;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .container {
+    margin: 0 auto;
+    max-width: 1200px; 
+    width: 100%; 
+    height: 100%;
+    padding: 0 10px;
+    }
+    .design_button{
+      width: 225px;
+      height: 65px;
+      flex-shrink: 0;
+      background: #34547A;
+      color: white;
+      margin-top: 65px;
+      margin-bottom: 60px;
+    }
+    .design{
+      margin-top: 50px;
+      font-size: 48px;
+      font-weight: 500;
+      line-height: 164.063%; 
+    }
+    .aboutMe_block{
+      margin-top: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 50px
+    }
+    .card_block{
+      margin-top: 50px;
+      background-color: #34547A;
+      
+    }
+
+    .video_box{
+      margin-top: 50px;
+      margin-bottom: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+    }
+
+    .footer_box h3{
+      font-size: 21px;
+      margin-top: 25px;
+    
+    }
+    
+    .footer_box p{
+      font-size: 13px;
+      margin-bottom: 25px;
+    }
+
+    .player{
+      width: 250px;
+      height: 120px;
+    }
+}
 }
