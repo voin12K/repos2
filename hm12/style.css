@@ -47,7 +47,7 @@ body p * { color: red; }
 .buttons_header {
   display: flex;
   gap: 10px; 
-  flex-wrap: wrap;
+  
 }
 
 .Log_in,
@@ -430,16 +430,13 @@ display: flex;
 
 .boost_cards {
   display: flex;
-  margin-top: 25px; 
+  margin-top: 25px;
 }
 
 .boost_card {
-
   flex: 1;
   max-width: calc(33.33% - 20px);
   margin: 0 10px;
-  display: flex;
-  flex-direction: column;
   padding: 20px;
   box-sizing: border-box;
 }
@@ -479,6 +476,7 @@ display: flex;
   font-size: 20px;
   line-height: 30px;
   margin-top: 10px; 
+  
 }
 
 .card_under {
@@ -643,13 +641,9 @@ flex-direction: row;
   line-height: 30px; 
 
 }
-.img_bird{
-  width: 1023px;
-  height: 445px;
-  flex-shrink: 0;
 
 
-}
+
 .bird_button {
   margin-top: 32px;
   width: 193px;
@@ -926,7 +920,7 @@ flex-direction: column;
         }
     }
 
-    @media (max-width: 1030px) {
+    @media (max-width: 1401px) {
       .malunok img{
         width: 300px;
         height: 300px;
@@ -943,8 +937,7 @@ flex-direction: column;
       .control img{
         padding-top: 20px;
         margin-left: 0px;
-        width: 300px;
-        height: 300px;
+
       }
       .ensure{
         align-items: center; 
@@ -957,8 +950,6 @@ flex-direction: column;
       .ensure img{
         padding-top: 20px;
         margin-left: 0px;
-        width: 300px;
-        height: 300px;
       }
 
 
@@ -978,8 +969,6 @@ flex-direction: column;
       .shorten img{
         padding-top: 20px;
         margin-left: 0px;
-        width: 300px;
-        height: 300px;
       }
 
       
@@ -999,8 +988,14 @@ flex-direction: column;
       .less img{
         padding-top: 20px;
         margin-left: 0px;
-        width: 300px;
-        height: 300px;
       }
+
+      .boost_cards {
+        display: flex;
+        margin-top: 25px;
+        flex-direction: column;
+      }
+
+      .
 
     }
