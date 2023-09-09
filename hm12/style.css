@@ -16,11 +16,12 @@ body {
 .container {
   margin: 0 auto;
   max-width: 1440px; 
+  padding: 15 15 15 15px;
 }
 .header {
-  background-color: #black;
   border-bottom: 1px solid gray;
   display: flex;
+
 }
 
 .header_box {
@@ -34,7 +35,7 @@ body {
 
   align-items: center; 
   gap: 50px; 
-
+  flex-wrap: wrap;
 }
 body p * { color: red; }
 
@@ -46,6 +47,7 @@ body p * { color: red; }
 .buttons_header {
   display: flex;
   gap: 10px; 
+  flex-wrap: wrap;
 }
 
 .Log_in,
@@ -57,6 +59,7 @@ body p * { color: red; }
   align-items: center;
   font-family: Graphik LC TT;
   cursor: pointer;
+  
 }
 
 .tif {
@@ -77,6 +80,7 @@ body p * { color: red; }
   background-color: #FFFFFF;
   padding-bottom: 182px;
   display: flex;
+
   }
 
 .loc_box{
@@ -139,16 +143,18 @@ body p * { color: red; }
   padding-top: 120px;
 }
 
+
 .company{
   display: flex;
   padding-bottom: 100px;
   background-color: #FF9C7D;
+  flex-wrap: wrap;
 }
 
 .company_box{
   display: flex;
   flex-direction: column;
-
+  flex-wrap: wrap;
 }
 
 .company_text{
@@ -165,6 +171,8 @@ body p * { color: red; }
   display: flex;
   margin-top: 70px;
   align-items: center; 
+  flex-wrap: wrap;
+  
 }
 
 .brands svg{
@@ -190,6 +198,7 @@ body p * { color: red; }
   display:flex;
   margin-top: 100px;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .control_box{
@@ -227,6 +236,7 @@ body p * { color: red; }
 }
 
 .shorten {
+  flex-wrap: wrap;
   display: flex;
   margin-top: 100px;
   align-items: center; 
@@ -266,10 +276,10 @@ body p * { color: red; }
 .ensure{
   display:flex;
   margin-top: 100px;
+  flex-wrap: wrap;
 }
 
 .ensure_title{
-  width: 500px;
   color: #000;
   font-size: 50px;
   font-weight: 600;
@@ -301,7 +311,7 @@ body p * { color: red; }
 
 .less {
   display: flex;
-
+  flex-wrap: wrap;
   margin-top: 100px;
   align-items: center; 
 }
@@ -333,14 +343,6 @@ body p * { color: red; }
   line-height: 30px;
   margin-top: 20px;
 }
-
-.less img {
-  width: 632px;
-  height: 632px;
-}
-
-
-
 
 .icons{
 padding-bottom: 140px;
@@ -408,6 +410,11 @@ display: flex;
   padding-bottom: 170px;
   background-color: #FFFFFF;
   justify-content: space-between; 
+}
+
+.icons_box{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .boost_title{
@@ -557,7 +564,10 @@ flex-direction: row;
   border-right: 1px solid rgb(0, 0, 0);
 }
 
-
+.pie_main_box{
+  flex-wrap: wrap;
+  display: flex;
+}
 
 .pie_title{
   color: #000;
@@ -710,6 +720,7 @@ flex-direction: column;
   display: flex;
   border-bottom: 1px solid gray;
   margin-left: 55px;
+  flex-wrap: wrap;
 }
 
 .velo_box{
@@ -772,6 +783,7 @@ flex-direction: column;
   justify-content: space-between;
   margin-top: 120px;
   margin-left: 140px;
+  flex-wrap: wrap;
 }
 .p_colum{
   flex-direction: column; 
@@ -890,3 +902,105 @@ flex-direction: column;
   font-weight: 400;
   line-height: 15px; /* 125% */
   }
+
+
+  .localization_box{
+    margin-left: 105px;
+    background-color: #FFFFFF;
+    padding-bottom: 182px;
+    display: flex;
+  
+    }
+    @media (max-width: 1360px) {
+      .localization_box{
+
+        background-color: #FFFFFF;
+        padding-bottom: 182px;
+        display: flex;
+        flex-wrap: wrap;
+        }
+
+        .localization{
+          background-color: #FFFFFF;
+        
+        }
+    }
+
+    @media (max-width: 1030px) {
+      .malunok img{
+        width: 300px;
+        height: 300px;
+      }
+      
+      .control{
+        align-items: center; 
+        display:flex;
+        margin-top: 100px;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+
+      .control img{
+        padding-top: 20px;
+        margin-left: 0px;
+        width: 300px;
+        height: 300px;
+      }
+      .ensure{
+        align-items: center; 
+        display:flex;
+        margin-top: 100px;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+
+      .ensure img{
+        padding-top: 20px;
+        margin-left: 0px;
+        width: 300px;
+        height: 300px;
+      }
+
+
+      .shorten {
+        flex-wrap: wrap;
+        display: flex;
+        margin-top: 100px;
+        align-items: center; 
+        flex-direction: column-reverse;
+      }
+
+      .shorten_content {
+        margin-left: 0px;
+        text-align: left; 
+      }
+
+      .shorten img{
+        padding-top: 20px;
+        margin-left: 0px;
+        width: 300px;
+        height: 300px;
+      }
+
+      
+      .less {
+        flex-wrap: wrap;
+        display: flex;
+        margin-top: 100px;
+        align-items: center; 
+        flex-direction: column-reverse;
+      }
+
+      .less_content {
+        margin-left: 0px;
+        text-align: left; 
+      }
+
+      .less img{
+        padding-top: 20px;
+        margin-left: 0px;
+        width: 300px;
+        height: 300px;
+      }
+
+    }
