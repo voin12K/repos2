@@ -916,15 +916,11 @@ flex-direction: column;
 
         .localization{
           background-color: #FFFFFF;
-        
+          margin-left: 0px;
         }
     }
 
     @media (max-width: 1401px) {
-      .malunok img{
-        width: 300px;
-        height: 300px;
-      }
       
       .control{
         align-items: center; 
@@ -996,6 +992,6 @@ flex-direction: column;
         flex-direction: column;
       }
 
-      .
+      
 
     }
